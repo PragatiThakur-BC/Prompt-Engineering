@@ -21,12 +21,16 @@ Exploring different LLM models
    ```
 ## Usage
 1. Run the FastAPI application:
-   for auto reload
+
+   For auto reload use this
    ```
-   uvicorn main:app --reload
+   uvicorn app.main:app --reload
    ```
-2. Open your web browser and go to http://localhost:8000/docs to access the interactive API documentation.
-3. Test the endpoints using the provided Swagger UI or external tool like Postman
+   else:
+   ```
+   uvicorn app.main:app
+3. Open your web browser and go to http://localhost:8000/docs to access the interactive API documentation.
+4. Test the endpoints using the provided Swagger UI or external tool like Postman
 ## Dependencies
 FastAPI: FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+.
 
