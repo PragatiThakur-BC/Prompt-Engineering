@@ -29,5 +29,7 @@ Exploring different LLM models
 3. Test the endpoints using the provided Swagger UI or external tool like Postman
 ## Dependencies
 FastAPI: FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+.
+
 Uvicorn: Uvicorn is a lightning-fast ASGI server implementation, using uvloop and httptools.
+
 Pydantic: Pydantic is a data validation and settings management using Python type annotations.
