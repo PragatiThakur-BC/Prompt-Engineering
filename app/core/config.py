@@ -12,6 +12,8 @@ class Settings(BaseSettings):
     BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = []
     MODEL: str
     MAX_TOKENS: int
+    GPT_API_KEY: str
+    GPT_MODEL: str
 
     class Config:
         env_file = ".env"
